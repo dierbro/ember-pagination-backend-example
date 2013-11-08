@@ -18,8 +18,8 @@ class PostsController < ApplicationController
   protected
   def resources_meta
     {
-      total_pages: @posts.total_pages,
-      current_page: @posts.current_page
+      totalPages: @posts.total_pages,
+      currentPage: @posts.current_page
     }
   end
 end
